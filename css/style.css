@@ -1,0 +1,58 @@
+@import url(null.css);
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #040404;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.header {
+  position: absolute;
+  padding-top: 25px;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, #D8D4CA 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-list {
+  padding-top: 25px;
+  display: flex;
+  gap: 0 40px;
+}
+
+.menu-left {
+  padding-left: 25px;
+}
+
+.menu-link {
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  color: #363636;
+}
+
+.menu-right {
+  padding-right: 80px;
+}
+
+.promo {
+  background-image: url(../images/Promo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.promo__inner {
+  min-height: 100vh;
+}/*# sourceMappingURL=style.css.map */
